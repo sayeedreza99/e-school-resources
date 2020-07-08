@@ -1,0 +1,155 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+padding: 10px 50px 20px 50px;
+}
+.container-padding{
+    padding-bottom: 50px;
+    padding-top: 10px;
+    
+}
+.nav-icon{
+    width: 200px;
+    height: 60px;
+}
+.button-bg{
+background: #21B573;
+border-radius: 33px;
+color: white;
+padding: 12px 36px;
+border: none;
+}
+.bg-color{
+    background: #F0FFF0; 
+}
+.button-sign{
+background: #21B573;
+border-radius: 33px;
+color: white;
+padding: 10px 28px;
+border: none;
+width: 104px;
+height: 43px;
+text-align: center;
+}
+
+.btn-primary{
+border-radius: 33px;
+padding: 5px 20px;
+background: #21B573;
+border: none;
+}
+
+.banner-txt-spn-color{
+color: #21B573;
+}
+.banner-content{
+    padding-top: 40px;
+}
+.banner-content h1{
+    font-weight: 700;
+}
+.banner-content h6{
+    color: rgb(255, 145, 0);
+}
+.banner-content p{
+    color:grey;
+    line-height: 36px;
+}
+.under-banner-section img.card-img-top{
+    max-width: 60px;
+    margin: 0 auto;
+    max-height: 78px;
+    padding-top: 20px;
+}
+.under-banner-section .card-body{
+    text-align: center; 
+}
+.under-banner-section .card{
+    border:none;
+    background:  #F8FFFB;;
+}
+.under-banner-section .card:hover{
+    box-shadow: 5px 5px 15px;
+    background: white;
+}
+.online-course-section-header h2{
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+.online-courses .card{
+border:none;
+border-radius: 15px;
+box-shadow: 5px 5px 10px;
+}
+.online-courses img{
+    padding:15px
+}
+
+.icon-img{
+    width: 20px;
+    height: 20px;
+}
+
+.icon-left p {
+    margin-bottom: 0;
+    padding-left: 10px;
+}
+
+.card-icon {
+    position: relative;
+    right: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+.icon-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.testimonial-content {
+    display: flex;
+    width: 60%;
+    margin: 0 auto;    
+}
+
+.testimonial-content img{
+    max-width: 75%;
+    height: auto;
+}
+
+
+footer{
+    background: rgb(23, 3, 42);
+    font-family: 'Poppins', sans-serif;
+}
+
+footer p,footer li {
+    color: #fff;
+
+}
+footer ul li a {
+    color: #fff;
+    font-size: 12px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer ul li {
+    list-style: none;
+}
+footer ul {
+    padding: 0;
+}
+footer li{
+    font-size: 10px;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 20px;
+ }

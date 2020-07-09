@@ -1,28 +1,37 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+
 .container{
 padding: 10px 50px 20px 50px;
 }
+
 .container-padding{
     padding-bottom: 50px;
-    padding-top: 10px;
-    
+    padding-top: 10px;  
 }
+
 .nav-icon{
     width: 200px;
     height: 60px;
 }
-.button-bg{
+
+.nav-item{
+    padding-left: 20px;
+}
+
+.button-banner{
 background: #21B573;
 border-radius: 33px;
 color: white;
 padding: 12px 36px;
 border: none;
 }
+
 .bg-color{
     background: #F0FFF0; 
 }
+
 .button-sign{
 background: #21B573;
 border-radius: 33px;
@@ -33,30 +42,37 @@ width: 104px;
 height: 43px;
 text-align: center;
 }
-
 .btn-primary{
 border-radius: 33px;
 padding: 5px 20px;
 background: #21B573;
 border: none;
 }
+.btn-primary:hover, .btn-primary:focus {
+    background-color: #34b67b;
+    border-color: none;
+    box-shadow: none;
+}
 
 .banner-txt-spn-color{
 color: #21B573;
 }
-.banner-content{
-    padding-top: 40px;
+.banner-section h1{
+    /* font-weight: 700; */
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: bold;
 }
-.banner-content h1{
-    font-weight: 700;
-}
-.banner-content h6{
+.banner-section h6{
     color: rgb(255, 145, 0);
 }
-.banner-content p{
+.banner-section p{
     color:grey;
     line-height: 36px;
+    max-width: 403px;
 }
+
 .under-banner-section img.card-img-top{
     max-width: 60px;
     margin: 0 auto;
@@ -74,37 +90,37 @@ color: #21B573;
     box-shadow: 5px 5px 15px;
     background: white;
 }
-.online-course-section-header h2{
-    font-weight: 900;
-    padding-bottom: 20px;
+
+.online-courses .section-header h2{
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: bold;
+    padding-bottom: 40px;
 }
 .online-courses .card{
 border:none;
 border-radius: 15px;
 box-shadow: 5px 5px 10px;
 }
-.online-courses img{
-    padding:15px
+.online-courses .card-img-top{
+    padding: 10px;
 }
 
 .icon-img{
     width: 20px;
     height: 20px;
 }
-
 .icon-left p {
     margin-bottom: 0;
     padding-left: 10px;
 }
-
 .card-icon {
-    position: relative;
-    right: 35px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 20px;
-    
+    margin-top: 20px;  
 }
 .icon-left {
     display: flex;
@@ -112,16 +128,22 @@ box-shadow: 5px 5px 10px;
     align-items: center;
 }
 
-
-.testimonial-content {
+.testimonial-content{
     display: flex;
-    width: 60%;
-    margin: 0 auto;    
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-between;
 }
-
-.testimonial-content img{
-    max-width: 75%;
+.testimonial-img .img-fluid{
+    max-width: 70%;
     height: auto;
+}
+.testimonial-section .section-header h2{
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: bold; 
 }
 
 
@@ -140,7 +162,6 @@ footer ul li a {
     font-weight: normal;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 footer ul li {
     list-style: none;
 }
@@ -153,3 +174,40 @@ footer li{
     font-size: 15px;
     line-height: 20px;
  }
+footer .container{
+    padding-top: 50px;
+}
+footer .bottom{
+    padding-top: 50px;
+    text-align: center;
+}
+ a:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+
+ @media only screen and (max-width: 768px) {
+.container-padding{
+        padding: 2px 0;
+    }
+.testimonial-content{
+    width: 100%;
+    flex-direction: column;
+}
+.testimonial-img{
+    text-align: center;
+}
+.testimonial-img .img-fluid {
+    max-width: 60%;
+}
+.testimonial-text {
+    text-align: center;
+    padding-top: 10px;
+}
+.banner-img .img-fluid{
+    padding-top: 20px;
+}
+
+}
